@@ -9,7 +9,7 @@
 # renovate: datasource=docker depName=ghcr.io/ublue-os/bluefin
 ARG BASE_IMAGE="ghcr.io/ublue-os/bluefin"
 ARG BASE_TAG="stable"
-ARG BASE_DIGEST="sha256:9f0201d21641133b15c5e58e6cf85008259e8ffce1c7169a063f7474f2f56c41"
+ARG BASE_DIGEST="sha256:7a74b963dced8b496ea2359193d100c1b7b473b8019982a5b8dd7899adbb4645"
 
 FROM scratch AS ctx
 COPY build_files /build_files
