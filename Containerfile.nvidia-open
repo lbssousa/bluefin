@@ -10,7 +10,7 @@
 # renovate: datasource=docker depName=ghcr.io/ublue-os/bluefin-nvidia-open
 ARG BASE_IMAGE="ghcr.io/ublue-os/bluefin-nvidia-open"
 ARG BASE_TAG="stable"
-ARG BASE_DIGEST="sha256:62ce646bff7aedade2ddad29051938f48ce4d2af532486dc42ae61ee823da915"
+ARG BASE_DIGEST="sha256:82abcda61cd79547f8242b43c819ab84d3688e14f13bde74279b708a26a733ac"
 
 FROM scratch AS ctx
 COPY build_files /build_files
